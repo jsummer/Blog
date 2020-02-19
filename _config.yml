@@ -49,10 +49,10 @@ plugin:
     dir_posts: assets/images/posts
   # To see language support, go to the plugin "_plugins/reading_time.rb"
   reading_time:
-    locale: en_US
+    locale: ch_CH
   # To see language support, go to the plugin "_plugins/datelang.rb"
   datelang:
-    locale: en_US
+    locale: ch_CH
     reload: false
 
 # Plugin music.

@@ -1,10 +1,10 @@
 {
   "ch_CH":{
     "ReadingTime":{
-      "longtext": "閱讀“關於 ",
-      "shorttext": "閱讀“1分鐘內”。",
-      "pword": "分鐘",
-      "sword": "分鐘"
+      "longtext": "阅读“关于 ",
+      "shorttext": "阅读“1分钟内”。",
+      "pword": "分钟",
+      "sword": "分钟"
     }
   },
   "de_DE":{
