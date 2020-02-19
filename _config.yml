@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://47.93.235.47:8080" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://jsummer.top" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Add Avatar in: Sidebar or page Hello, and configure.
 avatar:
