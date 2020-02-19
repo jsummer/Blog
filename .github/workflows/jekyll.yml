@@ -14,3 +14,14 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: Deploy
+      uses: easingthemes/ssh-deploy@v2.0.7
+      env:
+          SSH_PRIVATE_KEY: ${{ secrets.ALI_KEY_SECRET }}
+          ARGS: "-avz --delete"
+          SOURCE: "_site/"
+          REMOTE_HOST: "47.93.237.190"
+          REMOTE_USER: "root"
+          TARGET: "/root/blog/"
+
+
