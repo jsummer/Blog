@@ -17,7 +17,7 @@ jobs:
     - name: Deploy
       uses: easingthemes/ssh-deploy@v2.0.7
       env:
-          SSH_PRIVATE_KEY: ${{ secrets.ALI_KEY_SECRET }}
+          SSH_PRIVATE_KEY: ${{ secrets.JSUMMER_KEY_SECRET }}
           ARGS: "-avz --delete"
           SOURCE: "_site/"
           REMOTE_HOST: "47.93.237.190"
