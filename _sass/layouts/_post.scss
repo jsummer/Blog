@@ -5,6 +5,9 @@
     color: $color-links;
     text-decoration: underline;
   }
+  img{
+    max-width: 100%;
+  }
   .readmode{
     position: fixed;
     float: right;

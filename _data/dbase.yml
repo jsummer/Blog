@@ -4,7 +4,7 @@
 
 # Category: Website.
 website:
-  title: Typing
+  title: Jsummer
   description: Typing - A Theme for Jekyll
   launch: 2016
   avatar: typing.svg
@@ -19,17 +19,17 @@ website:
   # Config for Google Analytics.  Note: Must have Google Analytics Tracking ID.
   google:
     analytics:
-      enable: false # Use: true | false
-      id:  # tracking id, e.g. "UA-000000-01"
+      enable: true # Use: true | false
+      id: "UA-106614331-1" # tracking id, e.g. "UA-000000-01"
       events: true # Use: true | false . Events Google Analytics
   author:
     image: typing.svg
   strings:
     sidebar:
       title: |
-        Hey, <br> I'm Typing.
+        Hey, <br> I'm jsummer.
       links:
-        home: Hello
+        home: 介绍
     footer:
       message: Simplicity is fashionable.
     comments:
@@ -84,16 +84,16 @@ userdata:
         id: github
         icon: fa-github
         url: https://github.com/williamcanin/typing-theme
-      - title: Twitter
-        id: twitter
-        icon: fa-twitter
-        url: https://github.com/williamcanin/typing-theme
-      - title: Google Plus
-        id: gplus
-        icon: fa-google-plus
-        url: https://github.com/williamcanin/typing-theme
-      - title: LinkedIn
-        id: linkedin
-        icon: fa-linkedin
-        url: https://github.com/williamcanin/typing-theme
+      # - title: Twitter
+      #   id: twitter
+      #   icon: fa-twitter
+      #   url: https://github.com/williamcanin/typing-theme
+      # - title: Google Plus
+      #   id: gplus
+      #   icon: fa-google-plus
+      #   url: https://github.com/williamcanin/typing-theme
+      # - title: LinkedIn
+      #   id: linkedin
+      #   icon: fa-linkedin
+      #   url: https://github.com/williamcanin/typing-theme
 

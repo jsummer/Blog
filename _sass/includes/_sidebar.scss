@@ -52,7 +52,7 @@
       padding-left: 10px;
       @media (max-width: 500px) {
         text-align: center;
-        width: 370px;
+        width: 100%;
         margin: 0 auto;
       }
       li{
@@ -66,6 +66,7 @@
           color: $color-links;
           text-decoration: underline;
           font-weight: $links-title-weight;
+          margin-left: 11px;
         }
       }
       .breakline{
