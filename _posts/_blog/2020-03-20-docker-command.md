@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "docker 常用命令"
-categories: docker
-tags: ['HTML5']
+categories: blog
+tags: ['docker']
 published: true
 comments: true
 script: [post.js]

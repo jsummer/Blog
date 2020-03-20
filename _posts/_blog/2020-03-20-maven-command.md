@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "maven 常用命令"
-categories: maven
-tags: ['HTML5']
+categories: blog
+tags: ['maven']
 published: true
 comments: true
 script: [post.js]
