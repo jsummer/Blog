@@ -34,6 +34,13 @@ docker publish image_name
 docker service create --name appname --replicas 1 --limit-cpu 8 --limit-memory 4294967296 --with-registry-auth --network snet -p 8080:8080 image_name
 ```
 
+### 更新服务
+
+```
+docker service update --with-registry-auth --image image_name
+```
+
+
 **参数说明:**
 
 * `--replicas` 副本
